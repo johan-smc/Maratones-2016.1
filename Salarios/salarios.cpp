@@ -28,10 +28,10 @@ Persona capPer () {
 void insertion_sort (Persona arr[], int length){
     int j;
     Persona temp;
-    
+
     for (int i = 0; i < length; i++){
         j = i;
-        
+
         while (j > 0 && arr[j].sal < arr[j-1].sal){
             temp = arr[j];
             arr[j] = arr[j-1];
@@ -49,18 +49,16 @@ int main(int argc, const char * argv[]) {
         for (int i = 0; i < 10; i++) {
             arr[i] = capPer();
         }
-        
+
         insertion_sort(arr, 10);
-        
+
         for (int i = 0; i < 10; i++) {
             cout << arr[i].nombre << endl;
         }
-        
+        cout<<endl;
     }
-    
-    
-    
+
+
+
     return 0;
 }
-
-
