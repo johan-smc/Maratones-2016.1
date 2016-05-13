@@ -1,10 +1,1 @@
-rfkqyuq
-gdphcspij
-bvfukbyeqfq
-ptkhhqrqdwfcayssyoqcjomwufbd
-h
-lebxwbct
-yeziwkmgsovqzgdixrpd
-ygdttnhcvpfdfbrpzlkv
-cwkuzyamnerphfmwevhwlezohy
-gtiznorv
+Digite el nombre de la persona 1: Digite la distancia de la persona 1: Digite el nombre de la persona 2: Digite la distancia de la persona 2: Digite el nombre de la persona 3: Digite la distancia de la persona 3: El que esta mas cerca de Bob es Pedro

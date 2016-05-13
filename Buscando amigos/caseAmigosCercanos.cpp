@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <ctime>
 using namespace std;
 
 string aleC(int n)
@@ -11,14 +11,12 @@ string aleC(int n)
 }
 int main()
 {
+    srand(time(NULL));
   int n;
-  cin>>n;
-  cout<<n<<endl;
-  while( n-- )
-  {
-    cout<<aleC(rand()%30)<<" "<<rand()%30000<<endl;
-    cout<<aleC(rand()%30)<<" "<<rand()%30000<<endl;
-    cout<<aleC(rand()%30)<<" "<<rand()%30000<<endl;
-  }
+
+    cout<<"Juan"<<" "<<rand()%30000<<endl;
+    cout<<"Pedro"<<" "<<rand()%30000<<endl;
+    cout<<"Bob"<<" "<<rand()%30000<<endl;
+
   return 0;
 }
